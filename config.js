@@ -23,16 +23,18 @@ window.BIRTHDAY_CONFIG = {
   ],
 
   memories: [
-    { image: "images/photo1.jpg", caption: "The light you bring into every room" },
-    { image: "images/photo2.jpg", caption: "Your quiet grace, in all the little moments" },
-    { image: "images/photo3.jpg", caption: "That smile I could never get tired of" },
-    { image: "images/photo4.jpg", caption: "You make every light shine a little warmer" },
-    { image: "images/photo5.jpg", caption: "Joy looks especially beautiful on you" },
-    { image: "images/photo6.jpg", caption: "Every shade of you is unforgettable" },
-    { image: "images/photo7.jpg", caption: "A little memory, kept close" },
-    { image: "images/photo8.jpg", caption: "Golden moments with my favourite person" },
-    { image: "images/photo9.jpg", caption: "The kind of moment I want to remember forever" },
-    { image: "images/photo10.jpg", caption: "And so many beautiful chapters still ahead" }
+    { image: "images/photo1.jpg", caption: "You were the cutest even back then… I would’ve lost my heart to you anyway. ❤️" },
+    { image: "images/photo2.jpg", caption: "Blessed with a smile so bright, I don’t need a festival to light up my world. ✨" },
+    { image: "images/photo3.jpg", caption: "So glad cameras were invented—now I can cheer myself up just by looking at you. ❤️" },
+    { image: "images/photo4.jpg", caption: "Even when you’re annoyed, somehow you’re still the cutest. 😌❤️" },
+    { image: "images/photo5.jpg", caption: "Can’t wait to explore the world, one beautiful place at a time—with you. 🌍❤️" },
+    { image: "images/photo6.jpg", caption: "Can’t wait to share countless glasses of wine and even more memories with you. 🍷❤️" },
+    { image: "images/photo7.jpg", caption: "And yes… this shirt you love so is my fav since then❤️" },
+    { image: "images/photo8.jpg", caption: "Our first birthday together—and I want to celebrate every single one of yours from here on. 🎂❤️" },
+    { image: "images/photo9.jpg", caption: "I could stare into those eyes forever and still never get tired of them. ❤️" },
+    { image: "images/photo10.jpg", caption: "A little glimpse of forever… and I can’t wait to live the rest of my life with you. 💍❤️" },
+    { image: "images/photo11.jpg", caption: "And here on… we simply look babal together. 😌❤️🔥" },
+    { image: "images/photo12.jpg", caption: "My favourite kind of chaos—with you. ❤️" }
   ],
 
   timeline: [
