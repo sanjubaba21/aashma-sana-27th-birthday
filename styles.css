@@ -164,6 +164,157 @@ em { color: var(--rose); font-weight: 400; }
 @keyframes burst { 0% { transform: translate(0,0) rotate(0); opacity: 1; } 100% { transform: translate(var(--x), var(--y)) rotate(540deg); opacity: 0; } }
 .toast { position: fixed; z-index: 50; left: 50%; bottom: 1.5rem; transform: translate(-50%, 2rem); padding: .75rem 1rem; border: 1px solid rgb(215 170 98 / .2); border-radius: 999px; background: #11121ee8; color: var(--cream); font-size: .75rem; opacity: 0; pointer-events: none; transition: .4s var(--ease); }.toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
 
+/* Aashma as the atmosphere — every chapter is carried by one of her photographs. */
+.opening,
+.scene {
+  background-color: var(--ink);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.opening {
+  background-image:
+    radial-gradient(circle at 50% 48%, rgb(20 12 25 / .28), rgb(5 6 13 / .84) 74%),
+    linear-gradient(180deg, rgb(5 6 13 / .25), rgb(5 6 13 / .72)),
+    url("backgrounds/office.jpg");
+  background-position: 56% center;
+}
+.opening__content {
+  width: min(100%, 48rem);
+  padding: clamp(2rem, 7vw, 4.5rem) clamp(1.25rem, 5vw, 3rem);
+  border: 1px solid rgb(248 240 227 / .14);
+  border-radius: 2rem;
+  background: linear-gradient(145deg, rgb(7 9 18 / .68), rgb(7 9 18 / .36));
+  box-shadow: 0 2rem 7rem rgb(0 0 0 / .35);
+  backdrop-filter: blur(7px);
+}
+
+.reveal {
+  background-image:
+    radial-gradient(circle at 50% 43%, rgb(76 31 60 / .22), transparent 45%),
+    linear-gradient(180deg, rgb(5 6 13 / .54), rgb(5 6 13 / .88)),
+    url("backgrounds/selfie.jpg");
+  background-position: center 35%;
+}
+.reveal__copy {
+  padding: clamp(1.5rem, 5vw, 3.5rem);
+  border-radius: 2rem;
+  background: rgb(7 9 18 / .42);
+  box-shadow: 0 2rem 6rem rgb(0 0 0 / .28);
+  backdrop-filter: blur(5px);
+}
+
+.story {
+  background-image:
+    linear-gradient(90deg, rgb(6 7 14 / .9) 0%, rgb(6 7 14 / .7) 48%, rgb(6 7 14 / .38) 100%),
+    url("images/photo6.jpg");
+  background-position: 62% center;
+}
+.story__content,
+.presence__copy,
+.wish__content,
+.finale__copy {
+  padding: clamp(1.5rem, 5vw, 3rem);
+  border: 1px solid rgb(248 240 227 / .12);
+  border-radius: 1.8rem;
+  background: linear-gradient(145deg, rgb(7 9 18 / .7), rgb(7 9 18 / .42));
+  box-shadow: 0 1.8rem 5rem rgb(0 0 0 / .28);
+  backdrop-filter: blur(6px);
+}
+
+.presence {
+  background-image:
+    linear-gradient(90deg, rgb(5 6 13 / .9), rgb(5 6 13 / .55) 52%, rgb(5 6 13 / .3)),
+    url("backgrounds/office.jpg");
+  background-position: 58% center;
+}
+.presence__copy { align-self: center; }
+.constellation { background: radial-gradient(circle, rgb(85 38 70 / .58), rgb(8 10 19 / .18) 65%); }
+
+.loves {
+  background-image:
+    linear-gradient(180deg, rgb(5 6 13 / .68), rgb(5 6 13 / .9)),
+    url("backgrounds/joy.jpg");
+  background-position: center;
+}
+.love-card {
+  background: linear-gradient(145deg, rgb(7 9 18 / .78), rgb(7 9 18 / .52));
+  box-shadow: 0 1.2rem 3rem rgb(0 0 0 / .24);
+  backdrop-filter: blur(8px);
+}
+
+.memories {
+  background-image:
+    linear-gradient(180deg, rgb(5 6 13 / .72), rgb(5 6 13 / .92)),
+    url("backgrounds/sari.jpg");
+  background-position: center 28%;
+}
+
+.september-note {
+  background-image:
+    radial-gradient(circle at 50% 45%, rgb(82 36 67 / .28), transparent 52%),
+    linear-gradient(180deg, rgb(5 6 13 / .62), rgb(5 6 13 / .9)),
+    url("backgrounds/red.jpg");
+  background-position: 55% center;
+}
+.september-note__content {
+  padding: clamp(1.5rem, 5vw, 3.5rem);
+  border-radius: 2rem;
+  background: rgb(7 9 18 / .52);
+  box-shadow: 0 2rem 6rem rgb(0 0 0 / .3);
+  backdrop-filter: blur(6px);
+}
+
+.timeline {
+  background-image:
+    linear-gradient(90deg, rgb(5 6 13 / .88), rgb(5 6 13 / .64) 60%, rgb(5 6 13 / .42)),
+    url("backgrounds/flowers.jpg");
+  background-position: 68% center;
+}
+.timeline__list {
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+  border-radius: 0 1.5rem 1.5rem 0;
+  background: linear-gradient(90deg, rgb(7 9 18 / .68), rgb(7 9 18 / .22));
+}
+
+.surprise {
+  background-image:
+    radial-gradient(circle at 50% 50%, rgb(62 28 58 / .2), transparent 52%),
+    linear-gradient(180deg, rgb(5 6 13 / .58), rgb(5 6 13 / .88)),
+    url("images/photo9.jpg");
+  background-position: 46% center;
+}
+
+.wish {
+  background-image:
+    linear-gradient(180deg, rgb(5 6 13 / .62), rgb(5 6 13 / .9)),
+    url("images/photo1.jpg");
+  background-position: 56% center;
+}
+.wish__content { width: min(100%, 40rem); }
+
+.finale {
+  background-image:
+    radial-gradient(circle at 50% 55%, rgb(49 24 47 / .24), transparent 54%),
+    linear-gradient(180deg, rgb(5 6 13 / .62), rgb(5 6 13 / .92)),
+    url("backgrounds/selfie.jpg");
+  background-position: center 35%;
+}
+.finale__copy { padding-block: clamp(2.5rem, 7vw, 5rem); }
+
+.section-header,
+.reveal__copy,
+.story__content,
+.presence__copy,
+.september-note__content,
+.timeline__list,
+.surprise__card,
+.wish__content,
+.finale__copy { text-shadow: 0 .12rem .9rem rgb(0 0 0 / .6); }
+
 @media (min-width: 700px) {
   .scene { padding: 8rem 7vw; }
   .topbar { padding: 1.4rem 2rem; }
@@ -173,10 +324,29 @@ em { color: var(--rose); font-weight: 400; }
   .constellation { min-height: 100svh; }
   .love-grid { grid-template-columns: repeat(2, 1fr); }.love-card:nth-child(3n) { grid-column: span 2; }
   .memory-rail { padding-inline: 12vw; }
+  .opening { background-position: 62% center; }
+  .story__content { max-width: 42rem; }
+  .presence__copy { margin: 8rem 3vw 8rem 6vw; padding: clamp(2rem, 4vw, 4rem); }
+  .section-header { padding: 1.5rem 2rem; border-radius: 1.6rem; background: linear-gradient(90deg, rgb(7 9 18 / .62), transparent); }
 }
 @media (min-width: 1050px) {
   .love-grid { grid-template-columns: repeat(3, 1fr); }.love-card:nth-child(3n) { grid-column: auto; }.love-card:last-child { grid-column: 2; }
   .memory { flex-basis: 24rem; }
+}
+@media (max-width: 699px) {
+  .opening { background-position: 64% center; }
+  .reveal { background-position: center 28%; }
+  .story { background-position: 64% center; }
+  .presence { background-position: 61% center; }
+  .loves { background-position: 50% center; }
+  .memories { background-position: 54% center; }
+  .september-note { background-position: 52% center; }
+  .timeline { background-position: 65% center; }
+  .surprise { background-position: 44% center; }
+  .wish { background-position: 58% center; }
+  .finale { background-position: center 30%; }
+  .section-header { padding: 1.25rem; border-radius: 1.35rem; background: rgb(7 9 18 / .58); backdrop-filter: blur(5px); }
+  .opening__content { padding-block: 2.5rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
