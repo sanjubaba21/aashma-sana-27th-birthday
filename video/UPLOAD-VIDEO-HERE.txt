@@ -1,0 +1,16 @@
+VIDEO UPLOAD SETUP
+
+Upload your final video in this folder with this exact filename:
+
+    birthday-surprise.mp4
+
+Recommended format:
+- MP4 video
+- H.264 video codec
+- AAC audio codec
+- 1080p or smaller for faster mobile loading
+- Landscape or portrait both work
+
+Once the file is added and the website is published, it will automatically
+appear inside the "Open your birthday surprise" section. Until then, the site
+shows a gentle placeholder instead of a broken video player.

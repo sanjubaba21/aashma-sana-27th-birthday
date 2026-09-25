@@ -70,10 +70,19 @@
   let audioElement = $('#backgroundMusic');
   const surpriseVideo = $('#surpriseVideo');
   const surpriseVideoWrap = $('#surpriseVideoWrap');
+  const surpriseVideoPlaceholder = $('#surpriseVideoPlaceholder');
   if (config.musicUrl) audioElement.src = config.musicUrl;
   if (config.surpriseVideoUrl) {
     surpriseVideo.src = config.surpriseVideoUrl;
-    surpriseVideoWrap.hidden = false;
+    surpriseVideo.addEventListener('loadedmetadata', () => {
+      surpriseVideoWrap.hidden = false;
+      surpriseVideoPlaceholder.hidden = true;
+    }, { once: true });
+    surpriseVideo.addEventListener('error', () => {
+      surpriseVideoWrap.hidden = true;
+      surpriseVideoPlaceholder.hidden = false;
+    }, { once: true });
+    surpriseVideo.load();
   }
   let soundOn = false;
 

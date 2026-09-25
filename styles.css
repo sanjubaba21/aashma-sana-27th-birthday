@@ -139,6 +139,7 @@ em { color: var(--rose); font-weight: 400; }
 .surprise-video { margin: 0 auto 2.5rem; }
 .surprise-video video { display: block; width: 100%; max-height: min(70svh, 38rem); border: 1px solid rgb(215 170 98 / .3); border-radius: 1.2rem; background: #03040a; box-shadow: 0 1.5rem 4rem #0008; object-fit: contain; }
 .surprise-video p { margin: .8rem 0 0; color: var(--gold); font: italic 1.1rem var(--serif); }
+.surprise-video-placeholder { margin: 0 auto 2rem; padding: 1rem 1.2rem; max-width: 28rem; border: 1px dashed rgb(215 170 98 / .32); border-radius: 1rem; color: var(--gold); background: rgb(7 9 18 / .36); font: italic 1.15rem/1.4 var(--serif); }
 
 .wish { display: grid; place-items: center; text-align: center; background: #080a13; transition: filter .8s; }
 .wish.is-dimmed { filter: brightness(.35); }

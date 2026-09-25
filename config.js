@@ -9,8 +9,8 @@ window.BIRTHDAY_CONFIG = {
   /* The song begins only after the opening tap, in line with browser autoplay rules. */
   musicUrl: "music/photograph.m4a",
 
-  /* Upload the surprise video, then set this to a path such as "video/birthday-message.mp4". */
-  surpriseVideoUrl: "",
+  /* Upload your video as video/birthday-surprise.mp4 — the surprise section will detect it automatically. */
+  surpriseVideoUrl: "video/birthday-surprise.mp4",
 
   thingsILove: [
     "Your smile.",
